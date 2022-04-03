@@ -1,3 +1,7 @@
+/* Estrutura de Dados II - Semin√°rio
+Aluno: Diego Gabriel Batalha da Silva
+Curso: Engenharia de Computa√ß√£o - 3¬∞ Per√≠odo */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -129,8 +133,8 @@ int main()
 
     while (op != 'E' && op != 'e')
     {
-        printf("\n\n\tDigite a letra da funÁ„o desejada;\n");
-        printf("\tA - Adicionar elemento no inÌcio da lista;\n");
+        printf("\n\n\tDigite a letra da fun√ß√£o desejada;\n");
+        printf("\tA - Adicionar elemento no in√≠cio da lista;\n");
         printf("\tB - Adicionar elemento no fim da lista;\n");
         printf("\tC - Remover um elemento lista;\n");
         printf("\tD - Imprimir os elementos da lista;\n");
@@ -143,7 +147,7 @@ int main()
             if (inserirInicio(lista, valor) == 0)
                 printf("Elemento inserido com sucesso\n");
             else
-                printf("Elemento n„o removido com sucesso\n");
+                printf("Elemento n√£o removido com sucesso\n");
         }
         else if (op == 'B' || op == 'b')
         {
@@ -152,7 +156,7 @@ int main()
             if (inserirFim(lista, valor) == 0)
                 printf("Elemento inserido com sucesso\n");
             else
-                printf("Elemento n„o removido com sucesso\n");
+                printf("Elemento n√£o removido com sucesso\n");
         }
         else if (op == 'C' || op == 'c')
         {
@@ -168,6 +172,6 @@ int main()
         else if (op == 'E' || op == 'e')
             printf("\n\tTchau :)\n");
         else
-            printf("FunÁ„o inv·lida.\n");
+            printf("Fun√ß√£o inv√°lida.\n");
     }
 }
